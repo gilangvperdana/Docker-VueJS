@@ -12,7 +12,7 @@ If you want to change the your Vue project, just delete all file on this folder 
 ```
 This image has been succsessfully created, try this:
 Clone this repo
-$ cd Docker-VueJS
+$ cd Docker-VueJS-Certbot
 $ npm cache clean --force
 $ rm package-lock.json
 $ rm -r node_modules
@@ -23,7 +23,7 @@ Access on : http://localhost
 
 If you want to deploy with SSL:
 Clone this repo
-$ cd Docker-VueJS
+$ cd Docker-VueJS-Certbot
 Change the Dockerfile "nginx productionstage" replace Dockerfile with sslDockerfile
 $ docker build -t vuessl .
 $ docker run -d -p 80:80 -p 443:443 vuessl
